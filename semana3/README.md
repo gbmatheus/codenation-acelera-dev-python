@@ -7,6 +7,7 @@
 + Pytest
 
 ### Tipos de testes
+
 + Sistema - teste do sistema como um todo
 + Integração - integração entre partes do sistema
 + Unitáriio - menor parte do sistema
@@ -15,15 +16,13 @@ Quanto mais alto na hierarquia maior o custo e o tempo de execução.
 Teste de sistema é mais demorado do que o teste unitário.
 
 Exemplo de teste
-+ Sistema
-  * Teste de aceitação
-+ Integração
-  * Teste de integração (ex: duas classe ou dois módulos diferentes)
-+ Unitário
-  * Teste unitário (ex: função ou classe)
 
++ Sistema: Teste de aceitação
++ Integração: Teste de integração (ex: duas classe ou dois módulos diferentes)
++ Unitário: Teste unitário (ex: função ou classe)
 
 ### Porque usar TDD? - se faz vários pequenos passos, para desevolver tal funcionalidade
+
 + Desenvolvimento orientado a testes (No decorrer do desenvolvimento, é desenvolvido teste)
 + É uma maneira de desenvolver pensando em teste (pensa em teste em dev)
 + Guia o design da aplicacação
